@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+e<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -25,8 +25,20 @@
             <label for="fecha">Fecha:</label>
             <input type="date" id="fecha" name="fecha" required>
             <br><br>
-            <label for="msg">Fecha:</label>
-            <textarea id="msg" name="msg" required>
+            <label for="noticias">Suscribirme al boletín de noticias</label>
+            <input type="checkbox" id="noticias" name="noticias">
+            <br><br>
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto" required>
+                <option value="">-- Selecciona un asunto --</option>
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="soporte">Soporte técnico</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br><br>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="msg" required></textarea>
             <br><br>
             <button type="submit">Enviar</button>
         </form>
